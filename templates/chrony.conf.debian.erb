@@ -22,7 +22,7 @@
 # better to use IP numbers than host names.
 
 <% if @servers.is_a?(Hash) then @servers.keys.sort.each do |server| -%>
-server <%= server %> <%= @servers[server].join(' ') %>
+server <%= server %> offline
 <% end end -%>
 
 

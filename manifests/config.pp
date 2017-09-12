@@ -6,6 +6,7 @@ class chrony::config (
   $servers              = $chrony::servers,
 ) inherits chrony {
   file { $chrony::config_path:
+    notify  => Service['chrony'],
     ensure  => file,
     owner   => 0,
     group   => 0,
