@@ -1,12 +1,14 @@
+# Classe com os parametros utilizados 
+
 class chrony::params {
   $package_ensure   = 'present'
   $service_enable   = true
   $service_ensure   = 'running'
   $service_manage   = true
   $servers = {
-     'a.ntp.br' => ['iburst'],
-     'b.ntp.br' => ['iburst'],
-     'c.ntp.br' => ['iburst'],
+    'a.ntp.br' => ['iburst'],
+    'b.ntp.br' => ['iburst'],
+    'c.ntp.br' => ['iburst'],
   }
 
   case $::osfamily {

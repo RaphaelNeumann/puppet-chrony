@@ -1,3 +1,5 @@
+# Classe principal do modulo
+
 class chrony (
 Hash     $servers              = $chrony::params::servers,
 Boolean  $service_manage       = $chrony::params::service_manage,

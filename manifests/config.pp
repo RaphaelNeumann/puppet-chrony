@@ -1,9 +1,11 @@
+#Classe de configuracão
+
 class chrony::config (
   $config               = $chrony::config,
   $config_template      = $chrony::config_template,
   $servers              = $chrony::servers,
 ) inherits chrony {
-  file { $config_path:
+  file { $chrony::config_path:
     ensure  => file,
     owner   => 0,
     group   => 0,
