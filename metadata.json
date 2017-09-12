@@ -1,0 +1,15 @@
+{
+  "name": "raphaelneumann-chrony",
+  "version": "0.1.0",
+  "author": "raphaelneumann",
+  "summary": "Modulo que instala e configura NTP Server para ajuste da hora",
+  "license": "Apache-2.0",
+  "source": "https://github.com/RaphaelNeumann/puppet-chrony",
+  "project_page": "https://github.com/RaphaelNeumann/puppet-chrony",
+  "issues_url": "https://github.com/RaphaelNeumann/puppet-chrony/issues",
+  "dependencies": [
+    {"name":"puppetlabs-stdlib","version_requirement":">= 1.0.0"}
+  ],
+  "data_provider": null
+}
+
