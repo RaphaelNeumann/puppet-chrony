@@ -1,7 +1,7 @@
 # Classe principal do modulo
 
 class chrony (
-Hash     $servers              = $chrony::params::servers,
+Array     $servers              = $chrony::params::servers,
 Boolean  $service_manage       = $chrony::params::service_manage,
 ) inherits chrony::params {
     include '::chrony::install'
