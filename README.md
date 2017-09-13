@@ -3,14 +3,7 @@
 #### Tabla de conteudo
 
 1. [Descrição](#Descrição)
-1. [Setup - Guia básico para utilizar o módulo](#setup)
-    * [What chrony affects](#what-chrony-affects)
-    * [Setup requirements](#setup-requirements)
-    * [Beginning with chrony](#beginning-with-chrony)
-1. [Usage - Configuration options and additional functionality](#usage)
-1. [Reference - An under-the-hood peek at what the module is doing and how](#reference)
-1. [Limitations - OS compatibility, etc.](#limitations)
-1. [Development - Guide for contributing to the module](#development)
+2. [Setup - Guia básico para utilizar o módulo](#setup)
 
 ## Descrição
 
