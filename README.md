@@ -28,7 +28,7 @@ class { '::chronyd':
 
 ```puppet
 class { '::chronyd':
-	servers => ['a.ntp.br', 'b.ntp.br']
+	servers => ['a.ntp.br', 'b.ntp.br'],
 }
 ```
 
@@ -36,7 +36,7 @@ class { '::chronyd':
 
 ```puppet
 class { '::chronyd':
-	servers => ['a.ntp.br', 'b.ntp.br']
-	service_manage => false
+	servers => ['a.ntp.br', 'b.ntp.br'],
+	service_manage => false,
 }
 ```
